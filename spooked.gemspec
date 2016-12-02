@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.licenses          = ["Apache-2.0"]
   s.name              = "spooked"
   s.summary           = "An experimental unofficial API client for the ghost.org blogging platform"
-  s.version           = "0.0.1"
+  s.version           = "0.0.2"
 
   s.add_runtime_dependency "faraday",             "~> 0.9"
   s.add_runtime_dependency "faraday_middleware",  "~> 0.10"
