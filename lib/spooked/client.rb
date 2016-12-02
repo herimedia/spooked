@@ -3,7 +3,8 @@
 module Spooked
   class Client
     OPTIONS_WITH_CLASS_DEFAULT = [
-      :access_token,
+      :client_id,
+      :client_secret,
       :connection_builder,
       :connection_options,
       :subdomain,
@@ -66,7 +67,14 @@ module Spooked
     protected
 
     def connection
-      @connection ||= Faraday::Connection.new(evaluate_option(url_base), params: { access_token: access_token }, &connection_builder)
+      @connection ||= Faraday::Connection.new(
+        evaluate_option(url_base),
+        params: {
+          client_id:      client_id,
+          client_secret:  client_secret,
+        },
+        &connection_builder
+      )
     end
 
     def evaluate_option(option)

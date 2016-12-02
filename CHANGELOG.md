@@ -5,8 +5,9 @@ An experimental (and very limited!) unofficial Ruby client for the
 
 ## v0
 
-### Next Release (????-??-??)
+### v0.0.2 (2016-12-02)
 
+- BREAKING: Change from User to Client authentication (for longer lived access)
 - Fix Post.list query parameter passing
 
 ### v0.0.1 (2016-12-02)

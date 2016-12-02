@@ -13,13 +13,21 @@ If not explicitly passed a client, all methods will fall back to
 `Client.default_client`. You can set that default client directly or
 have it auto-constructed from a set of default options:
 
-#### access_token
+#### client_id
 
 **Has no default, must be provided.**
 
-Your User Authentication Bearer Token. See
-http://api.ghost.org/docs/user-authentication for details on how to obtain that
-token.
+The Client ID used for Client Authentication. See
+http://api.ghost.org/docs/client-authentication#client-restrictions for details
+on how to obtain that information.
+
+#### client_secret
+
+**Has no default, must be provided.**
+
+The Client Secret used for Client Authentication. See
+http://api.ghost.org/docs/client-authentication#client-restrictions for details
+on how to obtain that information.
 
 #### connection_builder
 
