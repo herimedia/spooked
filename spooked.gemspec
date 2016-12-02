@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.homepage          = "https://github.com/herimedia/spooked"
   s.licenses          = ["Apache-2.0"]
   s.name              = "spooked"
-  s.summary           = "An experiemental unofficial API client for the ghost.io blogging platform"
+  s.summary           = "An experimental unofficial API client for the ghost.org blogging platform"
   s.version           = "0.0.1"
 
   s.add_runtime_dependency "faraday",             "~> 0.9"

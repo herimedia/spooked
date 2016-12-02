@@ -1,6 +1,6 @@
 # spooked Changelog
 
-An experiemental (and very limited!) unofficial Ruby client for the
+An experimental (and very limited!) unofficial Ruby client for the
 [ghost.org / ghost.io blogging platform API](http://api.ghost.org/).
 
 ## v0

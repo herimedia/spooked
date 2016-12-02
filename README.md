@@ -1,6 +1,6 @@
 # spooked
 
-An experiemental (and very limited!) unofficial Ruby client for the
+An experimental (and very limited!) unofficial Ruby client for the
 [ghost.org / ghost.io blogging platform API](http://api.ghost.org/).
 
 [![Gem Version](https://badge.fury.io/rb/spooked.svg)](https://badge.fury.io/rb/spooked)
