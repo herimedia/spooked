@@ -1,3 +1,5 @@
+# :warning: UNMAINTAINED :warning:
+
 # spooked
 
 An experimental (and very limited!) unofficial Ruby client for the
